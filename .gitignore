@@ -1,0 +1,6 @@
+# General ignores
+*~
+
+# Mac OS X
+.DS_Store
+._*
