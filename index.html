@@ -11,6 +11,12 @@
 
     <link rel="shortcut icon" href="img/yutyut_teaser_256x256.ico"/>
 
+    <!-- break out of iframes -->
+    <script>
+        //noinspection ThisExpressionReferencesGlobalObjectJS
+        this.top.location !== this.location && (this.top.location = this.location);
+    </script>
+
     <script src="js/modernizr.js"></script>
 </head>
 
